@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Visualizacion</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <!--- Para coger los datos del mapa de internet-->
+    <script src="https://cdn.jsdelivr.net/npm/topojson@3"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Crecimiento de la población por paises</h1>
+        <p>Explicar un poco </p>
+    </header> 
+
+    <main> 
+        <div id="mapa-container">
+            <svg id="mapa" width = "100%" height = "100%"></svg>
+            <script src="mapa.js"></script>
+        </div>
+        
+        <div id = "estadisticas">
+        </div>
+    </main>
+    <!-- Add more HTML elements as needed -->
+
+    <!-- Your scripts can be included at the end of the body for better performance -->
+    <!-- <script src="your-script.js"></script> -->
+</body>
+
+</html>

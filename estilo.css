@@ -1,0 +1,42 @@
+/* Estilos generales */
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+  }
+  
+  header {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px 0;
+	height: 15%;
+  }
+  
+  main {
+	display: flex;
+	flex-direction: row;
+	height: 80%; /* Puedes ajustar esto según el tamaño de la cabecera */
+  }
+  
+  #mapa-container {
+	flex: 2;
+	border: 2px solid black;
+	background-color: #f2f2f2;
+	margin: 0;
+  }
+  
+  #estadisticas {
+	flex: 1;
+	background-color: #ccc;
+	padding: 20px;
+	margin: 0;
+  }
+
+  
+  .country {
+	fill: lightgreen;
+	stroke: black;
+	background-color: #4242e4;
+	stroke-opacity: 0.1;
+  }
