@@ -1,42 +1,101 @@
-/* Estilos generales */
 body, html {
-	margin: 0;
-	padding: 0;
 	height: 100%;
-  }
+	width: 100%;
+	overflow: hidden;
+}
   
-  header {
+header {
+	padding-top: 1%; 
+	padding-bottom: 1%;
 	background-color: #333;
 	color: #fff;
 	text-align: center;
-	padding: 20px 0;
-	height: 15%;
-  }
-  
-  main {
+	height: 17%;
+	overflow: scroll; 
+}
+
+main {
 	display: flex;
 	flex-direction: row;
-	height: 80%; /* Puedes ajustar esto según el tamaño de la cabecera */
-  }
-  
-  #mapa-container {
+	height: 83%; 
+}
+
+#mapa-container {
 	flex: 2;
-	border: 2px solid black;
+	position: relative;
+	height: 93%;
 	background-color: #f2f2f2;
-	margin: 0;
-  }
-  
-  #estadisticas {
+}
+
+#slider-container{
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 10%;
+}
+
+#estadisticas {
 	flex: 1;
 	background-color: #ccc;
 	padding: 20px;
 	margin: 0;
-  }
+}
 
-  
-  .country {
-	fill: lightgreen;
+#crecimiento_mundial{
+	overflow: scroll; 
+	height: 18%;
+	margin-left: 5%;
+}
+
+#paises_crecimiento_extremo{
+	overflow: scroll; 
+	height: 50%;
+}
+#paises_mas_y_menos_crecen{
+	display: flex;
+}
+#seguimento_pais{
+	overflow: scroll; 
+	height: 27%;
+	margin-left: 5%;
+}
+#fuente{
+	overflow: scroll; 
+	height: 5%;
+	text-align: center;
+	overflow: scroll; 
+}
+
+#paises_que_mas_decrecen, #paises_que_mas_crecen{
+	flex: 1;
+	text-align: center;
+}
+#paises_mas_o_menos_crecen{
+	margin: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/*#textWorldGrow, #textWorldGrowPercentage{
+	margin-left: 5px;
+}*/
+h3{
+	text-align: center;
+}
+h4{
+	margin-left: 10px; 
+}
+p {
+	margin-top: 4px;
+}
+
+/*Pinta la frontera de los países*/
+.country {
 	stroke: black;
-	background-color: #4242e4;
-	stroke-opacity: 0.1;
-  }
+	stroke-opacity: 0.5;
+	stroke-width: 0.3px;
+}
+
+/*Al seleciona un país se agranda su frontera*/
+.country:hover{
+	stroke-opacity: 1;
+	stroke-width: 1.3px;
+}

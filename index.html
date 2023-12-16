@@ -3,31 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <title>Visualizacion</title>
-    <script src="https://d3js.org/d3.v6.min.js"></script>
-    <!--- Para coger los datos del mapa de internet-->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <!--slider-->
+    <link rel="stylesheet" href="https://cdn.metroui.org.ua/current/metro.css">
+
     <script src="https://cdn.jsdelivr.net/npm/topojson@3"></script>
     <link rel="stylesheet" href="estilo.css">
+
+
 </head>
 
 <body>
+    
     <header>
         <h1>Crecimiento de la población por paises</h1>
-        <p>Explicar un poco </p>
+        <p> El mapa muestra el porcentaje de crecimiento de los países, para ampliar en el mapa haga doble click y para desampliar double clik+shift</p>
     </header> 
 
     <main> 
         <div id="mapa-container">
             <svg id="mapa" width = "100%" height = "100%"></svg>
+        
+            <div id="slider-container">
+                <input data-role="doubleslider"  
+                data-on-move="cambiarDatos" 
+                data-hint-always="true"
+                data-hint-position-min="left"
+                data-hint-position-max="right"
+                data-cls-min-max="text-bold"
+                class="cycle-marker"
+                data-value-min="2010"
+                data-value-max="2021"
+                data-min="1950" data-max="2021"
+                data-hint-mask-min="Año: $1"
+                data-hint-mask-max="Año: $1"
+                data-cls-hint="bg-cyan fg-white"
+                >  
+
+            </div> 
             <script src="mapa.js"></script>
         </div>
         
         <div id = "estadisticas">
+            <div id="crecimiento_mundial">
+                <h3 id = "headingWorldGrow">Crecimiento mundial en 2010-2021</h3>
+                <p id="textWorldGrow"></p>
+                <p id="textWorldGrowPercentage"></p>
+            </div>
+            
+            <div id="paises_crecimiento_extremo">
+                <h3 id = "paises_mas_o_menos_crecen">Paises que más y menos crecen</h3>   
+                <div id="paises_mas_y_menos_crecen"> 
+                    <div id="paises_que_mas_crecen">
+                        <h4 id = "paises_mayor_crecimiento">Más crecen</h5>
+                        <p id="pais_mas_crece1"></p>
+                        <p id="pais_mas_crece2"></p>
+                        <p id="pais_mas_crece3"></p>
+                        <p id="pais_mas_crece4"></p>
+                        <p id="pais_mas_crece5"></p>
+                    </div>
+                    <div id="paises_que_mas_decrecen">
+                        <h4 id = "paises_mayor_decrecimiento">Menos crecen</h5>
+                        <p id="pais_mas_decrece1"></p>
+                        <p id="pais_mas_decrece2"></p>
+                        <p id="pais_mas_decrece3"></p>
+                        <p id="pais_mas_decrece4"></p>
+                        <p id="pais_mas_decrece5"></p>
+                    </div>
+                </div>
+            </div>
+            <div id = "seguimento_pais">
+                <h3 id = "pais_seguido">Haga click en un país para seguir su crecimiento</h3>
+                <p id = "crecimiento_pais"></p>
+                <p id = "puesto_crecimiento_mundo"></p>
+            </div>
+            <div id = fuente>
+                <p id = p_fuente>Fuente: <a href="https://ourworldindata.org/population-growth#explore-data-poverty">Our World In Data</a> Autor: Diego de la Puente</p>
+            </div>
         </div>
     </main>
-    <!-- Add more HTML elements as needed -->
-
-    <!-- Your scripts can be included at the end of the body for better performance -->
-    <!-- <script src="your-script.js"></script> -->
+    <script src="https://cdn.metroui.org.ua/current/metro.js"></script>
 </body>
-
 </html>
