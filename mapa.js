@@ -37,7 +37,7 @@ var interpolateColorVeryNeg = d3.interpolateRgb(lowerColor,middleLowerColor);
 const anos = 72; // años de los datos
 const numPaisesDatos = 235;
 const numPaisesPintados = 226;
-var countries; //pai
+var countries; 
 var populationAllYears;
 var popWorld;
 
@@ -55,7 +55,7 @@ var populationFin;
 var ordenCrecimientoPaises;
 
 //Crear la leyenda 
-//Ajustarla a una zona sin países-
+//Ajustarla a una zona del mapa sin países
 const svgWidth = parseInt(svg.style("width"));
 const svgHeight = parseInt(svg.style("height"));
 const rectWidth = 0.2*svgWidth;
@@ -92,7 +92,8 @@ var divSeguimientoPais;
 var inic = 60;
 var fin = 71;
 
-//Cargar los datos y pintar el mapa entre los años 2010 y 2021
+//Cargar los datos y pintar el mapa entre los años 2010 y 2021 que se mostraran
+//de manera inicial y se podran cambiar
 Promise.all([
     d3.json(worldMap),
     d3.csv('./population_all_years.csv'),
@@ -129,7 +130,7 @@ function cambiarDatos(e){
   pintar_mapa(agnos);
 }
 
-// Pinta los datos en el mapa y ajusta los valores de la levenda
+// Pinta los datos en el mapa y ajusta los valores de la leyenda
 function pintar_mapa(agnos){
 
   inic = Math.round(agnos[0])-1950;
