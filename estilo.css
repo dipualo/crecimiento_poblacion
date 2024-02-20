@@ -42,25 +42,25 @@ main {
 
 #crecimiento_mundial{
 	overflow: scroll; 
-	height: 18%;
+	height: 20%;
 	margin-left: 5%;
 }
 
 #paises_crecimiento_extremo{
 	overflow: scroll; 
-	height: 50%;
+	height: 40%;
 }
 #paises_mas_y_menos_crecen{
 	display: flex;
 }
 #seguimento_pais{
 	overflow: scroll; 
-	height: 27%;
+	height: 30%;
 	margin-left: 5%;
 }
 #fuente{
 	overflow: scroll; 
-	height: 7%;
+	height: 10%;
 	text-align: center;
 	overflow: scroll; 
 }
