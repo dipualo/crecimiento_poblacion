@@ -316,8 +316,8 @@ function cambiarDatosPaisSeguido(agnos){
     for(puestoPais; puestoPais<numPaisesPintados;puestoPais++){
       if(countries.features[paisClickado].value == ordenCrecimientoPaises[puestoPais].value) break;
     }
+    if(puestoPais==226) puestoPais=0 //No se ha encontrado el país por lo que es el país que menos crece 
     puestoPais = 226-puestoPais;
-    console.log(puestoPais);
     divSeguimientoPais.select('#puesto_crecimiento_mundo').text("Es el país " + puestoPais+" de 226 con mayor tasa de crecimiento");
   }
 

@@ -10,12 +10,9 @@ La visualización puede ser útil para apreciar como afectan catastrofes demogr�
 
 Invasión de pakistan de la URRS o guerra de Vietnam
 
-También se pueden observar tendencias de crecimiento demográfico.
-
-Crecimiento de los países Áfricanos
-
 
 O simplemente explorarar los cambios demográficos de los países por mera curiosidad.
+
 
 ## Escala
 
