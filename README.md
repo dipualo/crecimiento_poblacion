@@ -8,7 +8,12 @@ Este repositorio esta basado en mi práctica de diseño y evaluación de sistema
 
 La visualización puede ser útil para apreciar como afectan catastrofes demográficas a la población y como los países se recuperan de ellas.
 
-Invasión de pakistan de la URRS o guerra de Vietnam
+Se pueden encontrar ejemplos como: 
+
+- La invasión de Afganistan de la URRS en 1978 y se ve en el periodo 1977-1982 sucede la poblción de Afganistan se hunde.
+
+
+- Genocidio de Ruanda en 1984.
 
 
 O simplemente explorarar los cambios demográficos de los países por mera curiosidad.
