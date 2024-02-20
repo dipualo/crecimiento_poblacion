@@ -55,12 +55,12 @@ main {
 }
 #seguimento_pais{
 	overflow: scroll; 
-	height: 27%;
+	height: 25%;
 	margin-left: 5%;
 }
 #fuente{
 	overflow: scroll; 
-	height: 5%;
+	height: 7%;
 	text-align: center;
 	overflow: scroll; 
 }
