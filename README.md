@@ -10,11 +10,11 @@ La visualización puede ser útil para apreciar como afectan catastrofes demogr�
 
 Se pueden encontrar ejemplos como: 
 
-- La invasión de Afganistan de la URRS en 1978 y se ve en el periodo 1977-1982 sucede la poblción de Afganistan se hunde.
-
+- La guerra de afgano-soviética empezada en 1978. En la visualización como entre 1977 y 1982 la población de Afganistan se hunde.
+![Alt text](./crecimiento_aganistan1977-1982.png?raw=true "Invasion URSS")
 
 - Genocidio de Ruanda en 1984.
-
+![Alt text](./crecimiento_ruanda1983-1985.png?raw=true "Genocidio Ruanda")
 
 O simplemente explorarar los cambios demográficos de los países por mera curiosidad.
 
