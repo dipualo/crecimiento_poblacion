@@ -13,7 +13,7 @@ const projection = d3.geoNaturalEarth1().scale([width/8]).translate([0.9*width/3
 const pathGenerator = d3.geoPath().projection(projection);
 
 // Escala daltonicos sacada de https://venngage.com/tools/accessible-color-palette-generator
-// Con esto me evito problemas de accesibilidad por daltonismo
+// Con esto me evito problemas de accesibilidad por daltonismo no se ha implementado
 /*
 const lowerColor = '#c44601';
 const middleLowerColor = '#f57600';

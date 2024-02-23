@@ -18,11 +18,14 @@ Se pueden encontrar ejemplos como:
 
 O simplemente explorar los cambios demográficos de los países por mera curiosidad.
 
-
 ## Escala
+
+La escala se divide en verde y rojo según la población del país decrezca o crezca respectivamente. La escala procede de [ex]: https://www.learnui.design/tools/data-color-picker.html#divergent "learnui" y para cada color se crean dos escalas divergentes lineales que van desde el 0 hasta la media de los países que más crecen (en el caso del color verde) y va desde el blanco hasta el segundo verde con más tonalidad y se usa otra desde ese verde hasta el verde con mayor tonalidad para los datos que van desde la media hasta el valor más extremo. De esta manera se consiigue que se noten las diferencias a simple vista entre los países que más crecen y los que crecen moderadamente. Esto o se observaba realizando sólo una escala divergente lineal de verdes los valores 0 y el país que más crece, ya que el país que crece más puede llegar a crecer un 10000% que tiene un color verde intenso y el resto de países que crezen, pero poco comparado con el anterior se llevan un verde muy poco intenso y no se ve las diferencias entre países que crezen un 20% y un 400%.
 
 ## Slider
 
+El doble slider da algúñn problema si se mueve raoidamente y esta sacado de [Metroui]: https://metroui.org.ua/double-slider.html#_slider_hint_position "metroui".
+
 ## Datos 
 
-## Tratamiento de datos
+LOs datos proceden de [OurWorldInDAta]:https://ourworldindata.org/population-growth#explore-data-poverty y para poder representarlas en el mapa se han echo modificaciones fundamentalmente para poder representar los colores en el mapa en los datos usando R como se puede ver en identificar_paises.R
