@@ -1,3 +1,5 @@
+Enlace para ver la visualización de la que trata el repositorio: https://crecimiento-poblacion.netlify.app/.
+
 ## Introducción
 
 Este repositorio esta basado en mi práctica de diseño y evaluación de sistemas interactivos del doble grado de infórmatica y estadística de la UVa. Este trabajo se basa en la realización de una visualización a escoger por el alumno. MI visualización  se basa en un mapa que representase el porcentaje de crecimiento de la población en distinos intervalos de años selecionables a partir de los datos de ourworldindata(poner el enlace). En la visualización hay dos zonas relevantes además del encabecado con el título que son:
