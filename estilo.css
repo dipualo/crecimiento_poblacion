@@ -41,7 +41,7 @@ main {
 }
 
 #crecimiento_mundial{
-	overflow: scroll; 
+	overflow: auto; 
 	height: 20%;
 	margin-left: 5%;
 }
