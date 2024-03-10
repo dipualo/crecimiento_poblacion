@@ -47,22 +47,21 @@ main {
 }
 
 #paises_crecimiento_extremo{
-	overflow: scroll; 
+	overflow: auto; 
 	height: 40%;
 }
 #paises_mas_y_menos_crecen{
 	display: flex;
 }
 #seguimento_pais{
-	overflow: scroll; 
+	overflow: auto; 
 	height: 30%;
 	margin-left: 5%;
 }
 #fuente{
-	overflow: scroll; 
+	overflow: auto; 
 	height: 10%;
-	text-align: center;
-	overflow: scroll; 
+	text-align: center; 
 }
 
 #paises_que_mas_decrecen, #paises_que_mas_crecen{

@@ -12,7 +12,7 @@ La visualización puede ser útil para apreciar como afectan catastrofes demogr�
 
 Se pueden encontrar ejemplos como: 
 
-- La guerra afgano-soviética empezada en 1978. En la visualización como entre 1977 y 1982 la población de Afganistan se hunde.
+- La guerra afgano-soviética empezada en 1978. En la visualización como entrehttps://crecimiento-poblacion.netlify.app/ 1977 y 1982 la población de Afganistan se hunde.
 ![Alt text](./crecimiento_afganistan1977-1982.png?raw=true "Invasion URSS")
 
 - Genocidio de Ruanda en 1994.
