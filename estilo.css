@@ -10,6 +10,7 @@ header {
 	background-color: #333;
 	color: #fff;
 	text-align: center;
+	widht : 100%;
 	height: 17%;
 	overflow: auto; 
 }
