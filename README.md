@@ -1,33 +1,69 @@
-Enlace para ver la visualización de la que trata el repositorio: https://crecimiento-poblacion.netlify.app/.
+# Visualización del Crecimiento de la Población Mundial
+
+**Enlace a la visualización:**  
+👉 [https://crecimiento-poblacion.netlify.app/](https://crecimiento-poblacion.netlify.app/)
 
 ## Introducción
 
-Este repositorio esta basado en mi práctica de diseño y evaluación de sistemas interactivos del doble grado de infórmatica y estadística de la UVa. Este trabajo se basa en la realización de una visualización a escoger por el alumno. Mi visualización  se basa en un mapa que representase el porcentaje de crecimiento de la población en distinos intervalos de años selecionables a partir de los datos de ourworldindata(poner el enlace). En la visualización hay dos zonas relevantes además del encabecado con el título que son:
+Este repositorio forma parte de una práctica de la asignatura *Diseño y Evaluación de Sistemas Interactivos*, correspondiente al Doble Grado en Ingeniería Informática y Estadística de la Universidad de Valladolid (UVa).
 
-- El mapa, en el que los países están pintados de colores verde o rojo según crezca o decrezca su población, siendo más intenso el color cuanto mayor sea la variación de la población. La escala para colorear el mapa busca que los usuarios de la visualización puedan separar los países según su crecimieto de un vistazo y posteriormente se describe como se construye. También en esta parte hay un slider que permite seleccionar los años de inicio y fin del periodo en el que se calcula el crecimiento de la población.
+El objetivo del trabajo es desarrollar una visualización interactiva sobre un tema libremente elegido. En este caso, la visualización representa el **crecimiento de la población mundial** en distintos periodos de tiempo, a partir de los datos proporcionados por [Our World in Data](https://ourworldindata.org/population-growth).
 
-- Zona con estadísticas, aquí aparecen estadísticas del crecimiento de la población del período seleccionable como los países que más y menos crezen con sus porcentajes o como cambia la población mundial en el intervalo seleccionado. Además, se permite clickar en un país para conocer más datos sobre el crecimiento del país y podiendo seguir su crecimiento aunque se cambie el período selecionado.
+### Estructura de la visualización
 
-La visualización puede ser útil para apreciar como afectan catastrofes demográficas a la población y como los países se recuperan de ellas.
+La visualización se compone de tres partes principales:
 
-Se pueden encontrar ejemplos como: 
+- **Encabezado**: Contiene el título y da contexto general a la visualización.
 
-- La guerra afgano-soviética empezada en 1978. En la visualización como entre 1977 y 1982 la población de Afganistan se hunde.
-![Alt text](./crecimiento_afganistan1977-1982.png?raw=true "Invasion URSS")
+- **Mapa interactivo**:  
+  Muestra los países coloreados en **verde** (crecimiento) o **rojo** (decrecimiento), con una intensidad proporcional a la magnitud del cambio poblacional.  
+  Además, incluye un *slider doble* que permite seleccionar el periodo de años sobre el que se calcula el crecimiento.
 
-- Genocidio de Ruanda en 1994.
-![Alt text](./crecimiento_ruanda1993-1995.png?raw=true "Genocidio Ruanda")
+- **Zona de estadísticas**:  
+  Muestra datos relevantes del periodo seleccionado, como:
+  - Países que más y menos han crecido, con sus respectivos porcentajes.
+  - Variación total de la población mundial.
+  - Información detallada de un país al hacer clic sobre él (el país seleccionado permanece activo incluso si se cambia el intervalo de años).
 
-O simplemente explorar los cambios demográficos de los países por mera curiosidad.
+### Utilidad
 
-## Escala
+Esta visualización permite comprender el impacto de fenómenos como guerras, genocidios o crisis demográficas en el crecimiento poblacional, así como observar tendencias globales o simplemente explorar por curiosidad.
 
-La escala se divide en verde y rojo según la población del país decrezca o crezca respectivamente. La escala se genera mediante https://www.learnui.design/tools/data-color-picker.html#divergent y para cada color se crean dos escalas divergentes lineales que van desde el 0 hasta la media de los países que más crecen (en el caso del color verde) que va desde el blanco hasta el segundo verde con más tonalidad y se usa otra desde ese verde hasta el verde con mayor tonalidad para los datos que van desde la media hasta el valor más extremo. De esta manera se consiigue que se noten las diferencias a simple vista entre los países que más crecen y los que crecen moderadamente. Esto no se observaba realizando sólo una escala divergente lineal de verdes usando los valores desde el 0 hasta el país que más crece, ya que el país que crece más puede llegar a crecer un 10000% que tiene un color verde intenso y el resto de países que crecen pero poco comparado con el anterior se llevan un verde muy poco intenso y no se ve las diferencias entre países que crecen un 20% y un 400%.
+#### Ejemplos destacados
+
+- **Guerra afgano-soviética (1978):**  
+  Se observa un colapso de la población de Afganistán entre 1977 y 1982.  
+  ![Invasión URSS](./crecimiento_afganistan1977-1982.png?raw=true "Invasión URSS")
+
+- **Genocidio de Ruanda (1994):**  
+  Impacto evidente entre 1993 y 1995.  
+  ![Genocidio Ruanda](./crecimiento_ruanda1993-1995.png?raw=true "Genocidio Ruanda")
+
+También puede utilizarse para explorar cambios demográficos generales por pura curiosidad.
+
+---
+
+## Escala de Colores
+
+La escala se basa en dos gamas divergentes: **verde** para crecimiento y **rojo** para decrecimiento, generadas mediante [Data Color Picker](https://www.learnui.design/tools/data-color-picker.html#divergent).
+
+Para mejorar la percepción visual, cada color tiene una escala *no lineal*:
+
+- De blanco al segundo color más intenso para valores de 0 a la media de los países que más crecen/decrecen.
+- De ese punto al color más intenso para valores que superan dicha media.
+
+Esto permite distinguir claramente entre países con crecimientos moderados y aquellos con cambios extremos. Una escala lineal simple no era suficiente, ya que países con crecimientos muy altos (ej. 10,000%) distorsionaban la paleta, haciendo casi indistinguibles los países con un 20% o 400% de crecimiento.
+
+---
 
 ## Slider
 
-El doble slider da algún problema si se mueve rapidamente y está sacado de https://metroui.org.ua/double-slider.html#_slider_hint_position.
+Se ha utilizado un *slider doble* proveniente de [Metro 4 UI](https://metroui.org.ua/double-slider.html#_slider_hint_position).  
+Puede presentar errores si se manipula muy rápidamente.
 
-## Datos 
+---
 
-LOs datos proceden de https://ourworldindata.org/population-growth#explore-data-poverty y para poder representarlas en el mapa se han echo modificaciones fundamentalmente para poder representar los colores en el mapa en los datos usando R como se puede ver en identificar_paises.R
+## Datos
+
+Los datos provienen de [Our World in Data - Population Growth](https://ourworldindata.org/population-growth#explore-data-poverty).  
+Se han realizado transformaciones para adaptarlos a la visualización, especialmente en lo que respecta a la codificación por país y la preparación para colorear el mapa. Estas transformaciones se realizaron en R y pueden consultarse en el archivo [`identificar_paises.R`](./identificar_paises.R).
