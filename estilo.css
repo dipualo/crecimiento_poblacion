@@ -1,4 +1,4 @@
-body, html {
+body, html { 
 	height: 100%;
 	width: 100%;
 	overflow: hidden;
@@ -21,7 +21,7 @@ main {
 	height: 83%; 
 }
 
-#mapa-container {
+#map-container {
 	flex: 2;
 	position: relative;
 	height: 93%;
@@ -74,9 +74,11 @@ main {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-/*#textWorldGrow, #textWorldGrowPercentage{
-	margin-left: 5px;
-}*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: clamp(1rem, 2.5vw, 3rem);
+}
+
 h3{
 	text-align: center;
 }
@@ -87,14 +89,14 @@ p {
 	margin-top: 4px;
 }
 
-/*Pinta la frontera de los países*/
+/* Draws the country borders */
 .country {
 	stroke: black;
 	stroke-opacity: 0.5;
 	stroke-width: 0.3px;
 }
 
-/*Al seleciona un país se agranda su frontera*/
+/* When a country is selected, its border thickens */
 .country:hover{
 	stroke-opacity: 1;
 	stroke-width: 1.3px;

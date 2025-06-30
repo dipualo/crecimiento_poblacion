@@ -1,0 +1,519 @@
+"Entity","Year","all.years"
+"Africa (UN)",1950,227776368
+"Africa (UN)",1951,232556927
+"Africa (UN)",1952,237539489
+"Africa (UN)",1953,242685015
+"Africa (UN)",1954,248005776
+"Africa (UN)",1955,253537795
+"Africa (UN)",1956,259271393
+"Africa (UN)",1957,265128614
+"Africa (UN)",1958,271041689
+"Africa (UN)",1959,277271556
+"Africa (UN)",1960,283921898
+"Africa (UN)",1961,290813698
+"Africa (UN)",1962,297959591
+"Africa (UN)",1963,305370992
+"Africa (UN)",1964,313060347
+"Africa (UN)",1965,321013199
+"Africa (UN)",1966,329251944
+"Africa (UN)",1967,337850657
+"Africa (UN)",1968,346800593
+"Africa (UN)",1969,356032214
+"Africa (UN)",1970,365551819
+"Africa (UN)",1971,375326054
+"Africa (UN)",1972,385311825
+"Africa (UN)",1973,395821587
+"Africa (UN)",1974,406869939
+"Africa (UN)",1975,418433110
+"Africa (UN)",1976,430496566
+"Africa (UN)",1977,442660083
+"Africa (UN)",1978,455538883
+"Africa (UN)",1979,469198125
+"Africa (UN)",1980,483051340
+"Africa (UN)",1981,497620586
+"Africa (UN)",1982,512958502
+"Africa (UN)",1983,528232357
+"Africa (UN)",1984,543637734
+"Africa (UN)",1985,559663726
+"Africa (UN)",1986,575966951
+"Africa (UN)",1987,592600988
+"Africa (UN)",1988,609387340
+"Africa (UN)",1989,626358837
+"Africa (UN)",1990,643774979
+"Africa (UN)",1991,661103454
+"Africa (UN)",1992,678557766
+"Africa (UN)",1993,696621428
+"Africa (UN)",1994,714502339
+"Africa (UN)",1995,732695095
+"Africa (UN)",1996,751473444
+"Africa (UN)",1997,770384365
+"Africa (UN)",1998,789981404
+"Africa (UN)",1999,810079502
+"Africa (UN)",2000,830582475
+"Africa (UN)",2001,851690036
+"Africa (UN)",2002,873411015
+"Africa (UN)",2003,895734171
+"Africa (UN)",2004,918778168
+"Africa (UN)",2005,942546337
+"Africa (UN)",2006,966932085
+"Africa (UN)",2007,992055553
+"Africa (UN)",2008,1018065221
+"Africa (UN)",2009,1044777480
+"Africa (UN)",2010,1072216450
+"Africa (UN)",2011,1100148553
+"Africa (UN)",2012,1128843402
+"Africa (UN)",2013,1158780240
+"Africa (UN)",2014,1189220297
+"Africa (UN)",2015,1220075440
+"Africa (UN)",2016,1251208407
+"Africa (UN)",2017,1282902065
+"Africa (UN)",2018,1315409722
+"Africa (UN)",2019,1348005440
+"Africa (UN)",2020,1380821116
+"Africa (UN)",2021,1413753005
+"Africa (UN)",2022,1446883598
+"Africa (UN)",2023,1480770476
+"Asia (UN)",1950,1368075360
+"Asia (UN)",1951,1394810908
+"Asia (UN)",1952,1424440936
+"Asia (UN)",1953,1456150725
+"Asia (UN)",1954,1488943413
+"Asia (UN)",1955,1523679988
+"Asia (UN)",1956,1558805602
+"Asia (UN)",1957,1595227731
+"Asia (UN)",1958,1632429785
+"Asia (UN)",1959,1665271717
+"Asia (UN)",1960,1692348870
+"Asia (UN)",1961,1718751763
+"Asia (UN)",1962,1753920045
+"Asia (UN)",1963,1799912110
+"Asia (UN)",1964,1848054016
+"Asia (UN)",1965,1894647547
+"Asia (UN)",1966,1940809519
+"Asia (UN)",1967,1986937196
+"Asia (UN)",1968,2035404605
+"Asia (UN)",1969,2086069522
+"Asia (UN)",1970,2137558990
+"Asia (UN)",1971,2188326530
+"Asia (UN)",1972,2238486472
+"Asia (UN)",1973,2289518276
+"Asia (UN)",1974,2340061132
+"Asia (UN)",1975,2389169983
+"Asia (UN)",1976,2437129334
+"Asia (UN)",1977,2484896095
+"Asia (UN)",1978,2532509711
+"Asia (UN)",1979,2581432895
+"Asia (UN)",1980,2632326489
+"Asia (UN)",1981,2684687792
+"Asia (UN)",1982,2739365820
+"Asia (UN)",1983,2794763998
+"Asia (UN)",1984,2850198993
+"Asia (UN)",1985,2906963689
+"Asia (UN)",1986,2965641130
+"Asia (UN)",1987,3026396295
+"Asia (UN)",1988,3087408960
+"Asia (UN)",1989,3148470964
+"Asia (UN)",1990,3209882544
+"Asia (UN)",1991,3269006328
+"Asia (UN)",1992,3325622530
+"Asia (UN)",1993,3380865773
+"Asia (UN)",1994,3434524724
+"Asia (UN)",1995,3487680445
+"Asia (UN)",1996,3540729931
+"Asia (UN)",1997,3593265262
+"Asia (UN)",1998,3645256100
+"Asia (UN)",1999,3696551645
+"Asia (UN)",2000,3747780266
+"Asia (UN)",2001,3798918055
+"Asia (UN)",2002,3848340891
+"Asia (UN)",2003,3896798868
+"Asia (UN)",2004,3945396095
+"Asia (UN)",2005,3993926524
+"Asia (UN)",2006,4042825645
+"Asia (UN)",2007,4091636859
+"Asia (UN)",2008,4140358315
+"Asia (UN)",2009,4189938641
+"Asia (UN)",2010,4239822624
+"Asia (UN)",2011,4289496306
+"Asia (UN)",2012,4339608752
+"Asia (UN)",2013,4388941113
+"Asia (UN)",2014,4436946245
+"Asia (UN)",2015,4483307826
+"Asia (UN)",2016,4528415110
+"Asia (UN)",2017,4572478758
+"Asia (UN)",2018,4613623476
+"Asia (UN)",2019,4652385211
+"Asia (UN)",2020,4688113308
+"Asia (UN)",2021,4718316334
+"Asia (UN)",2022,4747660972
+"Asia (UN)",2023,4778004427
+"Europe (UN)",1950,548867419
+"Europe (UN)",1951,553834756
+"Europe (UN)",1952,558789946
+"Europe (UN)",1953,564143687
+"Europe (UN)",1954,569744153
+"Europe (UN)",1955,575443477
+"Europe (UN)",1956,581156248
+"Europe (UN)",1957,587187517
+"Europe (UN)",1958,593619818
+"Europe (UN)",1959,599820002
+"Europe (UN)",1960,605817143
+"Europe (UN)",1961,611861808
+"Europe (UN)",1962,617815709
+"Europe (UN)",1963,623592860
+"Europe (UN)",1964,629154907
+"Europe (UN)",1965,634412769
+"Europe (UN)",1966,639413253
+"Europe (UN)",1967,644102997
+"Europe (UN)",1968,648613819
+"Europe (UN)",1969,653138760
+"Europe (UN)",1970,656998505
+"Europe (UN)",1971,660956156
+"Europe (UN)",1972,665521420
+"Europe (UN)",1973,669799723
+"Europe (UN)",1974,673741370
+"Europe (UN)",1975,677279613
+"Europe (UN)",1976,680656829
+"Europe (UN)",1977,684099895
+"Europe (UN)",1978,687433685
+"Europe (UN)",1979,690745891
+"Europe (UN)",1980,694278598
+"Europe (UN)",1981,697593641
+"Europe (UN)",1982,700451450
+"Europe (UN)",1983,703278466
+"Europe (UN)",1984,706110582
+"Europe (UN)",1985,708940353
+"Europe (UN)",1986,711992595
+"Europe (UN)",1987,715168303
+"Europe (UN)",1988,718375245
+"Europe (UN)",1989,721424386
+"Europe (UN)",1990,724139351
+"Europe (UN)",1991,726483463
+"Europe (UN)",1992,727616644
+"Europe (UN)",1993,728005862
+"Europe (UN)",1994,728884602
+"Europe (UN)",1995,729380556
+"Europe (UN)",1996,729369781
+"Europe (UN)",1997,729425085
+"Europe (UN)",1998,728864051
+"Europe (UN)",1999,728217628
+"Europe (UN)",2000,728164148
+"Europe (UN)",2001,728237686
+"Europe (UN)",2002,729126465
+"Europe (UN)",2003,730376330
+"Europe (UN)",2004,731246138
+"Europe (UN)",2005,732046468
+"Europe (UN)",2006,732684019
+"Europe (UN)",2007,733896274
+"Europe (UN)",2008,735549387
+"Europe (UN)",2009,736935668
+"Europe (UN)",2010,738145276
+"Europe (UN)",2011,739359145
+"Europe (UN)",2012,740458792
+"Europe (UN)",2013,741470727
+"Europe (UN)",2014,742640586
+"Europe (UN)",2015,744236976
+"Europe (UN)",2016,746003061
+"Europe (UN)",2017,747429166
+"Europe (UN)",2018,748564818
+"Europe (UN)",2019,749504082
+"Europe (UN)",2020,749523992
+"Europe (UN)",2021,748613448
+"Europe (UN)",2022,746964538
+"Europe (UN)",2023,745602817
+"Latin America and the Caribbean (UN)",1950,167782114
+"Latin America and the Caribbean (UN)",1951,172178608
+"Latin America and the Caribbean (UN)",1952,176742697
+"Latin America and the Caribbean (UN)",1953,181465090
+"Latin America and the Caribbean (UN)",1954,186352196
+"Latin America and the Caribbean (UN)",1955,191408043
+"Latin America and the Caribbean (UN)",1956,196635200
+"Latin America and the Caribbean (UN)",1957,202034592
+"Latin America and the Caribbean (UN)",1958,207597349
+"Latin America and the Caribbean (UN)",1959,213338372
+"Latin America and the Caribbean (UN)",1960,219267827
+"Latin America and the Caribbean (UN)",1961,225391611
+"Latin America and the Caribbean (UN)",1962,231696423
+"Latin America and the Caribbean (UN)",1963,238151611
+"Latin America and the Caribbean (UN)",1964,244733659
+"Latin America and the Caribbean (UN)",1965,251412584
+"Latin America and the Caribbean (UN)",1966,258167577
+"Latin America and the Caribbean (UN)",1967,264984965
+"Latin America and the Caribbean (UN)",1968,271854323
+"Latin America and the Caribbean (UN)",1969,278778791
+"Latin America and the Caribbean (UN)",1970,285740887
+"Latin America and the Caribbean (UN)",1971,292776245
+"Latin America and the Caribbean (UN)",1972,299924666
+"Latin America and the Caribbean (UN)",1973,307173809
+"Latin America and the Caribbean (UN)",1974,314507346
+"Latin America and the Caribbean (UN)",1975,321910188
+"Latin America and the Caribbean (UN)",1976,329387910
+"Latin America and the Caribbean (UN)",1977,336994315
+"Latin America and the Caribbean (UN)",1978,344747711
+"Latin America and the Caribbean (UN)",1979,352587313
+"Latin America and the Caribbean (UN)",1980,360493120
+"Latin America and the Caribbean (UN)",1981,368410477
+"Latin America and the Caribbean (UN)",1982,376371935
+"Latin America and the Caribbean (UN)",1983,384476499
+"Latin America and the Caribbean (UN)",1984,392668925
+"Latin America and the Caribbean (UN)",1985,400865305
+"Latin America and the Caribbean (UN)",1986,409041682
+"Latin America and the Caribbean (UN)",1987,417217300
+"Latin America and the Caribbean (UN)",1988,425425663
+"Latin America and the Caribbean (UN)",1989,433640779
+"Latin America and the Caribbean (UN)",1990,441884599
+"Latin America and the Caribbean (UN)",1991,450078820
+"Latin America and the Caribbean (UN)",1992,458219746
+"Latin America and the Caribbean (UN)",1993,466312584
+"Latin America and the Caribbean (UN)",1994,474323093
+"Latin America and the Caribbean (UN)",1995,482311004
+"Latin America and the Caribbean (UN)",1996,490233890
+"Latin America and the Caribbean (UN)",1997,498098833
+"Latin America and the Caribbean (UN)",1998,505972714
+"Latin America and the Caribbean (UN)",1999,513769020
+"Latin America and the Caribbean (UN)",2000,521323287
+"Latin America and the Caribbean (UN)",2001,528625807
+"Latin America and the Caribbean (UN)",2002,535741191
+"Latin America and the Caribbean (UN)",2003,542687897
+"Latin America and the Caribbean (UN)",2004,549493862
+"Latin America and the Caribbean (UN)",2005,556212133
+"Latin America and the Caribbean (UN)",2006,562854839
+"Latin America and the Caribbean (UN)",2007,569467955
+"Latin America and the Caribbean (UN)",2008,576049055
+"Latin America and the Caribbean (UN)",2009,582545302
+"Latin America and the Caribbean (UN)",2010,588907808
+"Latin America and the Caribbean (UN)",2011,595242634
+"Latin America and the Caribbean (UN)",2012,601576869
+"Latin America and the Caribbean (UN)",2013,607837461
+"Latin America and the Caribbean (UN)",2014,614015188
+"Latin America and the Caribbean (UN)",2015,620042558
+"Latin America and the Caribbean (UN)",2016,625922593
+"Latin America and the Caribbean (UN)",2017,631575392
+"Latin America and the Caribbean (UN)",2018,637012114
+"Latin America and the Caribbean (UN)",2019,642195479
+"Latin America and the Caribbean (UN)",2020,646729346
+"Latin America and the Caribbean (UN)",2021,650465241
+"Latin America and the Caribbean (UN)",2022,654366741
+"Latin America and the Caribbean (UN)",2023,658891468
+"Northern America (UN)",1950,168009287
+"Northern America (UN)",1951,170630571
+"Northern America (UN)",1952,173344071
+"Northern America (UN)",1953,176134416
+"Northern America (UN)",1954,179024795
+"Northern America (UN)",1955,181999133
+"Northern America (UN)",1956,185056872
+"Northern America (UN)",1957,188214414
+"Northern America (UN)",1958,191394891
+"Northern America (UN)",1959,194738578
+"Northern America (UN)",1960,198252592
+"Northern America (UN)",1961,201834031
+"Northern America (UN)",1962,205421696
+"Northern America (UN)",1963,208875747
+"Northern America (UN)",1964,212229854
+"Northern America (UN)",1965,215430489
+"Northern America (UN)",1966,218412839
+"Northern America (UN)",1967,221204946
+"Northern America (UN)",1968,223843800
+"Northern America (UN)",1969,226438591
+"Northern America (UN)",1970,229339534
+"Northern America (UN)",1971,232426901
+"Northern America (UN)",1972,235179280
+"Northern America (UN)",1973,237625555
+"Northern America (UN)",1974,240008167
+"Northern America (UN)",1975,242386569
+"Northern America (UN)",1976,244733360
+"Northern America (UN)",1977,247098892
+"Northern America (UN)",1978,249484113
+"Northern America (UN)",1979,251921667
+"Northern America (UN)",1980,254502344
+"Northern America (UN)",1981,257157412
+"Northern America (UN)",1982,259835140
+"Northern America (UN)",1983,262511848
+"Northern America (UN)",1984,265138304
+"Northern America (UN)",1985,267732898
+"Northern America (UN)",1986,270280738
+"Northern America (UN)",1987,272819040
+"Northern America (UN)",1988,275438992
+"Northern America (UN)",1989,278159842
+"Northern America (UN)",1990,281282329
+"Northern America (UN)",1991,284748611
+"Northern America (UN)",1992,288226582
+"Northern America (UN)",1993,291584808
+"Northern America (UN)",1994,294743516
+"Northern America (UN)",1995,297786683
+"Northern America (UN)",1996,300750096
+"Northern America (UN)",1997,303649730
+"Northern America (UN)",1998,306572405
+"Northern America (UN)",1999,309508456
+"Northern America (UN)",2000,312499933
+"Northern America (UN)",2001,315617723
+"Northern America (UN)",2002,318744842
+"Northern America (UN)",2003,321869901
+"Northern America (UN)",2004,325044509
+"Northern America (UN)",2005,328282553
+"Northern America (UN)",2006,331615106
+"Northern America (UN)",2007,335062189
+"Northern America (UN)",2008,338545367
+"Northern America (UN)",2009,341975901
+"Northern America (UN)",2010,345386000
+"Northern America (UN)",2011,348787070
+"Northern America (UN)",2012,352164242
+"Northern America (UN)",2013,355530209
+"Northern America (UN)",2014,358875247
+"Northern America (UN)",2015,362214113
+"Northern America (UN)",2016,365658158
+"Northern America (UN)",2017,369138687
+"Northern America (UN)",2018,372477267
+"Northern America (UN)",2019,375699022
+"Northern America (UN)",2020,377734296
+"Northern America (UN)",2021,378741920
+"Northern America (UN)",2022,380481716
+"Northern America (UN)",2023,382902690
+"Oceania (UN)",1950,12581995
+"Oceania (UN)",1951,12914986
+"Oceania (UN)",1952,13228919
+"Oceania (UN)",1953,13527006
+"Oceania (UN)",1954,13824266
+"Oceania (UN)",1955,14145050
+"Oceania (UN)",1956,14484393
+"Oceania (UN)",1957,14825184
+"Oceania (UN)",1958,15165822
+"Oceania (UN)",1959,15509843
+"Oceania (UN)",1960,15862251
+"Oceania (UN)",1961,16216463
+"Oceania (UN)",1962,16560538
+"Oceania (UN)",1963,16904201
+"Oceania (UN)",1964,17254261
+"Oceania (UN)",1965,17616825
+"Oceania (UN)",1966,17985665
+"Oceania (UN)",1967,18331812
+"Oceania (UN)",1968,18669810
+"Oceania (UN)",1969,19033389
+"Oceania (UN)",1970,19493769
+"Oceania (UN)",1971,20035693
+"Oceania (UN)",1972,20493742
+"Oceania (UN)",1973,20865794
+"Oceania (UN)",1974,21227864
+"Oceania (UN)",1975,21555522
+"Oceania (UN)",1976,21842079
+"Oceania (UN)",1977,22114216
+"Oceania (UN)",1978,22383076
+"Oceania (UN)",1979,22653323
+"Oceania (UN)",1980,22954088
+"Oceania (UN)",1981,23307110
+"Oceania (UN)",1982,23690261
+"Oceania (UN)",1983,24064094
+"Oceania (UN)",1984,24420673
+"Oceania (UN)",1985,24777205
+"Oceania (UN)",1986,25149446
+"Oceania (UN)",1987,25544177
+"Oceania (UN)",1988,25956046
+"Oceania (UN)",1989,26376633
+"Oceania (UN)",1990,26838973
+"Oceania (UN)",1991,27314925
+"Oceania (UN)",1992,27746269
+"Oceania (UN)",1993,28154002
+"Oceania (UN)",1994,28572702
+"Oceania (UN)",1995,29024878
+"Oceania (UN)",1996,29498293
+"Oceania (UN)",1997,29964230
+"Oceania (UN)",1998,30419714
+"Oceania (UN)",1999,30879745
+"Oceania (UN)",2000,31352582
+"Oceania (UN)",2001,31846847
+"Oceania (UN)",2002,32365635
+"Oceania (UN)",2003,32894178
+"Oceania (UN)",2004,33418692
+"Oceania (UN)",2005,33955801
+"Oceania (UN)",2006,34539978
+"Oceania (UN)",2007,35189659
+"Oceania (UN)",2008,35889976
+"Oceania (UN)",2009,36593157
+"Oceania (UN)",2010,37253701
+"Oceania (UN)",2011,37889721
+"Oceania (UN)",2012,38550126
+"Oceania (UN)",2013,39233547
+"Oceania (UN)",2014,39918392
+"Oceania (UN)",2015,40614637
+"Oceania (UN)",2016,41346862
+"Oceania (UN)",2017,42093603
+"Oceania (UN)",2018,42815107
+"Oceania (UN)",2019,43504145
+"Oceania (UN)",2020,44078924
+"Oceania (UN)",2021,44558158
+"Oceania (UN)",2022,45049301
+"Oceania (UN)",2023,45562735
+"World",1950,2493092801
+"World",1951,2536926981
+"World",1952,2584086282
+"World",1953,2634106196
+"World",1954,2685894824
+"World",1955,2740213742
+"World",1956,2795409946
+"World",1957,2852618291
+"World",1958,2911249598
+"World",1959,2965950296
+"World",1960,3015470858
+"World",1961,3064869609
+"World",1962,3123374259
+"World",1963,3192807773
+"World",1964,3264487295
+"World",1965,3334533671
+"World",1966,3404041061
+"World",1967,3473412825
+"World",1968,3545187204
+"World",1969,3619491543
+"World",1970,3694683753
+"World",1971,3769847803
+"World",1972,3844917635
+"World",1973,3920804971
+"World",1974,3996416050
+"World",1975,4070735208
+"World",1976,4144246343
+"World",1977,4217863768
+"World",1978,4292097452
+"World",1979,4368539442
+"World",1980,4447606162
+"World",1981,4528777252
+"World",1982,4612673388
+"World",1983,4697327540
+"World",1984,4782175455
+"World",1985,4868943409
+"World",1986,4958072773
+"World",1987,5049746328
+"World",1988,5141992501
+"World",1989,5234431681
+"World",1990,5327803039
+"World",1991,5418735854
+"World",1992,5505989763
+"World",1993,5591544754
+"World",1994,5675551219
+"World",1995,5758878939
+"World",1996,5842055673
+"World",1997,5924787768
+"World",1998,6007066661
+"World",1999,6089006306
+"World",2000,6171702952
+"World",2001,6254936409
+"World",2002,6337730260
+"World",2003,6420361599
+"World",2004,6503377733
+"World",2005,6586970109
+"World",2006,6671451961
+"World",2007,6757308732
+"World",2008,6844457620
+"World",2009,6932766373
+"World",2010,7021732097
+"World",2011,7110923706
+"World",2012,7201202442
+"World",2013,7291793521
+"World",2014,7381616193
+"World",2015,7470491849
+"World",2016,7558554482
+"World",2017,7645617937
+"World",2018,7729902735
+"World",2019,7811293646
+"World",2020,7887001253
+"World",2021,7954448327
+"World",2022,8021407128
+"World",2023,8091734853
