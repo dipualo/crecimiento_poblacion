@@ -46,3 +46,6 @@ names(pop_world)<-c("name","year","pop")
 
 file_name <- "pop_world_and_continents.csv" 
 write.csv(pop_world_and_continents, file = paste0(file_path, file_name),row.names = FALSE)
+
+file_name <- "pop_world.csv" 
+write.csv(pop_world, file = paste0(file_path, file_name),row.names = FALSE)
