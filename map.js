@@ -25,7 +25,7 @@ var interpolateColorPos = d3.interpolateRgb(middleColor, middleUpperColor);
 var interpolateColorNeg = d3.interpolateRgb(middleLowerColor, middleColor);
 var interpolateColorVeryNeg = d3.interpolateRgb(lowerColor, middleLowerColor);
 
-const yearsCount = 73; // number of years in the data
+const yearsCount = 74; // number of years in the data
 const totalCountriesData = 235;
 const totalCountriesPainted = 226;
 var countries; 
@@ -101,7 +101,7 @@ Promise.all([
       .attr('d', pathGenerator)
     // Select a country when clicking it
     .on("click", function (event, d) {
-      countryTrackingDiv = d3.select('#seguimento_pais');
+      countryTrackingDiv = d3.select('#country_tracking');
       // d is the clicked country index in the countries array
       clickedCountry = d;
       updateTrackedCountryData([startYearIndex + 1950, endYearIndex + 1950]);
@@ -164,7 +164,7 @@ function paintMap(years){
   meanNegativeGrowth = sumNegativeGrowth / numCountriesShrinking;
 
   // Update the statistics on the right panel
-  const worldGrowthDiv = d3.select('#crecimiento_mundial');
+  const worldGrowthDiv = d3.select('#world_growth');
   worldGrowthDiv.select('h3').text("World growth between " + Math.round(years[0]) + " - " + Math.round(years[1]));
  
   worldGrowthDiv.select("#textWorldGrow").text('The world population goes from ' + popWorld[startYearIndex].pop.replace(/\B(?=(\d{3})+(?!\d))/g, ".") + " to " + popWorld[endYearIndex].pop.replace(/\B(?=(\d{3})+(?!\d))/g, "."));
@@ -175,24 +175,24 @@ function paintMap(years){
   countriesGrowthOrder = countries.features.filter(country => country.value !== undefined);
   countriesGrowthOrder = countriesGrowthOrder.sort((a, b) => a.value - b.value);
 
-  const fastestGrowingCountriesDiv = d3.select('#paises_que_mas_crecen');
-  fastestGrowingCountriesDiv.select('#pais_mas_crece1').text(countriesGrowthOrder[totalCountriesPainted-1].name + " " + countriesGrowthOrder[totalCountriesPainted-1].value.toFixed(2) + "%");
-  fastestGrowingCountriesDiv.select('#pais_mas_crece2').text(countriesGrowthOrder[totalCountriesPainted-2].name + " " + countriesGrowthOrder[totalCountriesPainted-2].value.toFixed(2) + "%");
-  fastestGrowingCountriesDiv.select('#pais_mas_crece3').text(countriesGrowthOrder[totalCountriesPainted-3].name + " " + countriesGrowthOrder[totalCountriesPainted-3].value.toFixed(2) + "%");
-  fastestGrowingCountriesDiv.select('#pais_mas_crece4').text(countriesGrowthOrder[totalCountriesPainted-4].name + " " + countriesGrowthOrder[totalCountriesPainted-4].value.toFixed(2) + "%");
-  fastestGrowingCountriesDiv.select('#pais_mas_crece5').text(countriesGrowthOrder[totalCountriesPainted-5].name + " " + countriesGrowthOrder[totalCountriesPainted-5].value.toFixed(2) + "%");
+  const fastestGrowingCountriesDiv = d3.select('#countries_with_highest_growth');
+  fastestGrowingCountriesDiv.select('#country_grows_most1').text(countriesGrowthOrder[totalCountriesPainted-1].name + " " + countriesGrowthOrder[totalCountriesPainted-1].value.toFixed(2) + "%");
+  fastestGrowingCountriesDiv.select('#country_grows_most2').text(countriesGrowthOrder[totalCountriesPainted-2].name + " " + countriesGrowthOrder[totalCountriesPainted-2].value.toFixed(2) + "%");
+  fastestGrowingCountriesDiv.select('#country_grows_most3').text(countriesGrowthOrder[totalCountriesPainted-3].name + " " + countriesGrowthOrder[totalCountriesPainted-3].value.toFixed(2) + "%");
+  fastestGrowingCountriesDiv.select('#country_grows_most4').text(countriesGrowthOrder[totalCountriesPainted-4].name + " " + countriesGrowthOrder[totalCountriesPainted-4].value.toFixed(2) + "%");
+  fastestGrowingCountriesDiv.select('#country_grows_most5').text(countriesGrowthOrder[totalCountriesPainted-5].name + " " + countriesGrowthOrder[totalCountriesPainted-5].value.toFixed(2) + "%");
 
-  const fastestShrinkingCountriesDiv = d3.select('#paises_que_mas_decrecen');
-  fastestShrinkingCountriesDiv.select('#pais_mas_decrece1').text(countriesGrowthOrder[0].name + " " + countriesGrowthOrder[0].value.toFixed(2) + "%");
-  fastestShrinkingCountriesDiv.select('#pais_mas_decrece2').text(countriesGrowthOrder[1].name + " " + countriesGrowthOrder[1].value.toFixed(2) + "%");
-  fastestShrinkingCountriesDiv.select('#pais_mas_decrece3').text(countriesGrowthOrder[2].name + " " + countriesGrowthOrder[2].value.toFixed(2) + "%");
-  fastestShrinkingCountriesDiv.select('#pais_mas_decrece4').text(countriesGrowthOrder[3].name + " " + countriesGrowthOrder[3].value.toFixed(2) + "%");
-  fastestShrinkingCountriesDiv.select('#pais_mas_decrece5').text(countriesGrowthOrder[4].name + " " + countriesGrowthOrder[4].value.toFixed(2) + "%");
+  const fastestShrinkingCountriesDiv = d3.select('#countries_with_lowest_growth');
+  fastestShrinkingCountriesDiv.select('#country_grows_least1').text(countriesGrowthOrder[0].name + " " + countriesGrowthOrder[0].value.toFixed(2) + "%");
+  fastestShrinkingCountriesDiv.select('#country_grows_least2').text(countriesGrowthOrder[1].name + " " + countriesGrowthOrder[1].value.toFixed(2) + "%");
+  fastestShrinkingCountriesDiv.select('#country_grows_least3').text(countriesGrowthOrder[2].name + " " + countriesGrowthOrder[2].value.toFixed(2) + "%");
+  fastestShrinkingCountriesDiv.select('#country_grows_least4').text(countriesGrowthOrder[3].name + " " + countriesGrowthOrder[3].value.toFixed(2) + "%");
+  fastestShrinkingCountriesDiv.select('#country_grows_least5').text(countriesGrowthOrder[4].name + " " + countriesGrowthOrder[4].value.toFixed(2) + "%");
 
-  countryTrackingDiv = d3.select('#seguimento_pais');
+  countryTrackingDiv = d3.select('#country_tracking');
   
   // If the initial message is not present, update the tracked country data
-  if(countryTrackingDiv.select('#pais_seguido').text() != "Click on a country to track its growth") {
+  if(countryTrackingDiv.select('#tracked_country').text() != "Click on a country to track its growth") {
     updateTrackedCountryData(years);
   }
 
@@ -294,10 +294,10 @@ var countryRank;
 function updateTrackedCountryData(years){
   if(countries.features[clickedCountry].name !== undefined){
 
-    countryTrackingDiv.select('#pais_seguido').text("Population of " + countries.features[clickedCountry].name
+    countryTrackingDiv.select('#tracked_country').text("Population of " + countries.features[clickedCountry].name
     + " between " + Math.round(years[0]) + "-"+Math.round(years[1]));
-    countryTrackingDiv.select('#crecimiento_pais').text("Grows  " + countries.features[clickedCountry].value.toFixed(2) 
-    + "% from "+countries.features[clickedCountry].popInic.replace(/\B(?=(\d{3})+(?!\d))/g, ".")
+    countryTrackingDiv.select('#country_growth').text("Grows  " + countries.features[clickedCountry].value.toFixed(2) 
+    + "% from "+countries.features[clickedCountry].popInitial.replace(/\B(?=(\d{3})+(?!\d))/g, ".")
     + " to "+countries.features[clickedCountry].popFinal.replace(/\B(?=(\d{3})+(?!\d))/g, "."));  
     countryRank = 1;
     for(countryRank; countryRank<totalCountriesPainted;countryRank++){
@@ -305,14 +305,14 @@ function updateTrackedCountryData(years){
     }
     if(countryRank==226) countryRank=0 //If the selected country is the one with less growing
     countryRank = 226-countryRank;
-    countryTrackingDiv.select('#puesto_crecimiento_mundo').text("It is the country " + countryRank+" of 226 with less growing rate");
+    countryTrackingDiv.select('#world_growth_rank').text("It is the country " + countryRank+" of 226 with less growing rate");
   }
 
   else{
-    countryTrackingDiv.select('#pais_seguido').text("There is no data for the selected country");
-    countryTrackingDiv.select('#crecimiento_pais').html("Information is not available for some small southern islands such as South Georgia and the South Sandwich Islands in Antarctica, small countries like Monaco or San Marino, and Somaliland (a country in the Horn of Africa) which does not have international recognition.");
+    countryTrackingDiv.select('#tracked_country').text("There is no data for the selected country");
+    countryTrackingDiv.select('#country_growth').html("Information is not available for some small southern islands, such as South Georgia and the South Sandwich Islands; for microstates like Monaco and San Marino; and for territories like Somaliland, which lacks international recognition.");
     countryTrackingDiv.select('#crecimiento_continente').text("");
-    countryTrackingDiv.select('#puesto_crecimiento_mundo').text("");
+    countryTrackingDiv.select('#world_growth_rank').text("");
 
   }
 }

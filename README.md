@@ -1,11 +1,11 @@
 # World Population Growth Visualization
 
 **Link to the visualization:**  
-👉 [https://crecimiento-poblacion.netlify.app/](https://crecimiento-poblacion.netlify.app/)
+👉 [https://world-population-growht-visualization.netlify.app/](https://world-population-growht-visualization.netlify.app/)
 
 ## Introduction
 
-This repository is part of a project for the course *Design and Evaluation of Interactive Systems*, which belongs to the Double Degree in Computer Engineering and Statistics at the University of Valladolid (UVa).
+This repository is part of a project for the course *Design and Evaluation of Interactive Systems*, which belongs to the Double Degree in Computer Science and Statistics at the University of Valladolid (UVa).
 
 The aim of this project is to develop an interactive visualization on a freely chosen topic. In this case, the visualization represents the **growth of the world population** over different time periods, using data provided by [Our World in Data](https://ourworldindata.org/population-growth).
 
@@ -32,13 +32,13 @@ This visualization helps to understand the impact of phenomena such as wars, gen
 
 #### Highlighted Examples
 
-- **Soviet-Afghan War (1978):**  
-  A population collapse in Afghanistan can be seen between 1977 and 1982.  
-  ![USSR Invasion](./crecimiento_afganistan1977-1982.png?raw=true "USSR Invasion")
+- **Ukraine invasion (2022):**  
+  A population collapse in Ukraine can be seen between 2021 and 2023.  
+  ![Ukraine Invasion](./population_growth_Ukraine_2021-2023.png?raw=true "Ukraine Invasion")
 
 - **Rwandan Genocide (1994):**  
   A clear impact between 1993 and 1995.  
-  ![Rwandan Genocide](./crecimiento_ruanda1993-1995.png?raw=true "Rwandan Genocide")
+  ![Rwandan Genocide](./population_growth_Rwanda_1993-1995.png?raw=true "Rwandan Genocide")
 
 It can also be used to explore general demographic changes out of simple curiosity.
 
@@ -67,4 +67,4 @@ It may present errors if manipulated too quickly.
 ## Data
 
 The data comes from [Our World in Data - Population Growth](https://ourworldindata.org/population-growth#explore-data-poverty).  
-Transformations were performed to adapt the data to the visualization, especially regarding country encoding and preparation for coloring the map. These transformations were done in R and can be found in the [`identificar_paises.R`](./identificar_paises.R) file.
+Transformations were performed to adapt the data to the visualization, especially regarding country encoding and preparation for coloring the map. These transformations were done in R and can be found in the [`preprocess_data.R`](./preprocess_data.R) file.

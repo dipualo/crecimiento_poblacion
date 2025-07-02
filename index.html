@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.metroui.org.ua/current/metro.css">
 
     <script src="https://cdn.jsdelivr.net/npm/topojson@3"></script>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -26,15 +26,15 @@
         
             <div id="slider-container">
                 <input data-role="doubleslider"  
-                data-on-move="cambiarDatos" 
+                data-on-move="changeData" 
                 data-hint-always="true"
                 data-hint-position-min="left"
                 data-hint-position-max="right"
                 data-cls-min-max="text-bold"
                 class="cycle-marker"
                 data-value-min="2010"
-                data-value-max="2021"
-                data-min="1950" data-max="2021"
+                data-value-max="2023"
+                data-min="1950" data-max="2023"
                 data-hint-mask-min="Year: $1"
                 data-hint-mask-max="Year: $1"
                 data-cls-hint="bg-cyan fg-white"
@@ -43,41 +43,41 @@
             <script src="map.js"></script>
         </div>
         
-        <div id="estadisticas">
-            <div id="crecimiento_mundial">
+        <div id="statistics">
+            <div id="world_growth">
                 <h3 id="headingWorldGrow">World growth in 2010-2021</h3>
                 <p id="textWorldGrow"></p>
                 <p id="textWorldGrowPercentage"></p>
             </div>
             
-            <div id="paises_crecimiento_extremo">
-                <h3 id="paises_mas_o_menos_crecen">Countries with the highest and lowest growth</h3>   
-                <div id="paises_mas_y_menos_crecen"> 
-                    <div id="paises_que_mas_crecen">
-                        <h4 id="paises_mayor_crecimiento">Highest growth</h4>
-                        <p id="pais_mas_crece1"></p>
-                        <p id="pais_mas_crece2"></p>
-                        <p id="pais_mas_crece3"></p>
-                        <p id="pais_mas_crece4"></p>
-                        <p id="pais_mas_crece5"></p>
+            <div id="countries_extreme_growth">
+                <h3 id="countries_highest_or_lowest_growth">Countries with the highest and lowest growth</h3>   
+                <div id="countries_most_and_least_growth"> 
+                    <div id="countries_with_highest_growth">
+                        <h4 id="highest_growth">Highest growth</h4>
+                        <p id="country_grows_most1"></p>
+                        <p id="country_grows_most2"></p>
+                        <p id="country_grows_most3"></p>
+                        <p id="country_grows_most4"></p>
+                        <p id="country_grows_most5"></p>
                     </div>
-                    <div id="paises_que_mas_decrecen">
-                        <h4 id="paises_mayor_decrecimiento">Lowest growth</h4>
-                        <p id="pais_mas_decrece1"></p>
-                        <p id="pais_mas_decrece2"></p>
-                        <p id="pais_mas_decrece3"></p>
-                        <p id="pais_mas_decrece4"></p>
-                        <p id="pais_mas_decrece5"></p>
+                    <div id="countries_with_lowest_growth">
+                        <h4 id="lowest_growth">Lowest growth</h4>
+                        <p id="country_grows_least1"></p>
+                        <p id="country_grows_least2"></p>
+                        <p id="country_grows_least3"></p>
+                        <p id="country_grows_least4"></p>
+                        <p id="country_grows_least5"></p>
                     </div>
                 </div>
             </div>
-            <div id="seguimento_pais">
-                <h3 id="pais_seguido">Click on a country to track its growth</h3>
-                <p id="crecimiento_pais"></p>
-                <p id="puesto_crecimiento_mundo"></p>
+            <div id="country_tracking">
+                <h3 id="tracked_country">Click on a country to track its growth</h3>
+                <p id="country_growth"></p>
+                <p id="world_growth_rank"></p>
             </div>
-            <div id="fuente">
-                <p id="p_fuente">Source: <a href="https://ourworldindata.org/population-growth#explore-data-poverty">Our World In Data</a> <br> Author: <a href="https://github.com/dipualo">@dipualo</a></p>
+            <div id="source">
+                <p id="p_source">Source: <a href="https://ourworldindata.org/population-growth#explore-data-poverty">Our World In Data</a> <br> Author: <a href="https://github.com/dipualo">@dipualo</a></p>
             </div>
         </div>
     </main>

@@ -34,60 +34,62 @@ main {
 	height: 10%;
 }
 
-#estadisticas {
+#statistics {
 	flex: 1;
 	background-color: #ccc;
-	padding: 20px;
+	padding: 1em;
 	margin: 0;
-}
+}slider
 
-#crecimiento_mundial{
+#world_growth{
 	overflow: auto; 
 	height: 20%;
 	margin-left: 5%;
 }
 
-#paises_crecimiento_extremo{
+#countries_extreme_growth{
 	overflow: auto; 
-	height: 40%;
+	height: 45%;
 }
-#paises_mas_y_menos_crecen{
+#countries_most_and_least_growth{
 	display: flex;
+	margin: 10px;
 }
-#seguimento_pais{
+#country_tracking{
 	overflow: auto; 
 	height: 30%;
 	margin-left: 5%;
 }
-#fuente{
+#source{
 	overflow: auto; 
 	height: 10%;
 	text-align: center; 
 }
 
-#paises_que_mas_decrecen, #paises_que_mas_crecen{
+#countries_with_lowest_growth, #countries_with_highest_growth{
 	flex: 1;
 	text-align: center;
 }
-#paises_mas_o_menos_crecen{
+#countries_highest_or_lowest_growth{
 	margin: 0px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 0.7em;
+	margin-bottom: 0em;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: clamp(1rem, 2.5vw, 3rem);
-}
-
-h3{
+h3 {
 	text-align: center;
+	font-size: 2em;
 }
-h4{
-	margin-left: 10px; 
+h4 {
+  margin-left: 10px;
+  font-size: 1.5em; /* changed from cap to px */
 }
 p {
-	margin-top: 4px;
+  margin-top: 4px;
+  text-align: center;
+  font-size: 1.1em; /* changed from 2px to readable minimum */
 }
+  
 
 /* Draws the country borders */
 .country {
