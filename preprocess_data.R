@@ -7,9 +7,9 @@ population<-population_and_demography[order(population_and_demography$Year),1:3]
 # Only select the countries not continent or group of countries
 population<-population[population$Entity %in% countries_codes$Country,]
 
-# There is 235 countries and 73 years data
+# There is 235 countries and 74 years data
 num_countries<-235
-num_years<-73
+num_years<-74
 
 population<-cbind(population,rep("",dim(population)[1]),rep("",dim(population)[1]))
 names(population)<-c("name","year","pop","id","continent")
